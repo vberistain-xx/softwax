@@ -1,0 +1,29 @@
+@import "../base/color";
+@import "../base/variables";
+@import "../base/tools";
+
+$menuHeight: 50px;
+
+.menu-component {
+  ul{
+    @extend .container;
+    height: $menuHeight;
+    background-color: black;
+    padding: 0;
+    li {
+      height: 100%;
+      width: 20%;
+      display: inline-block;
+      border: 1px solid $c-primary;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      text-align: center;
+      a {
+        color: $c-text;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: $menuHeight;
+      }
+    }
+  }
+}

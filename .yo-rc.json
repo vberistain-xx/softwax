@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "softwax",
+    "style": "scss",
+    "postcss": false
+  }
+}
