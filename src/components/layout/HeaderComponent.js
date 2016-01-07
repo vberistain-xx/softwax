@@ -18,8 +18,4 @@ class HeaderComponent extends React.Component {
 
 HeaderComponent.displayName = 'LayoutHeaderComponent';
 
-// Uncomment properties you need
-// HeaderComponent.propTypes = {};
-// HeaderComponent.defaultProps = {};
-
 export default HeaderComponent;

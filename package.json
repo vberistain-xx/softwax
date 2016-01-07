@@ -60,7 +60,10 @@
     "node-sass": "^3.3.3"
   },
   "dependencies": {
+    "alt": "^0.17.9",
+    "bootstrap": "^3.3.6",
     "history": "^1.13.1",
+    "jquery": "^2.1.4",
     "lodash": "^3.10.1",
     "normalize.css": "^3.0.3",
     "react": "^0.14.0",

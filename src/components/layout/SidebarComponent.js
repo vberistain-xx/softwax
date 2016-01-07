@@ -35,8 +35,4 @@ class SidebarComponent extends React.Component {
 
 SidebarComponent.displayName = 'LayoutSidebarComponent';
 
-// Uncomment properties you need
-// SidebarComponent.propTypes = {};
-// SidebarComponent.defaultProps = {};
-
 export default SidebarComponent;

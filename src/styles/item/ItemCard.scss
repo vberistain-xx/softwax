@@ -1,0 +1,35 @@
+@import "../base/color";
+
+.itemcard-component {
+  background-color: $c-secondary;
+  width: 834px;
+  font-size: 13px;
+  height: 80px;
+  margin-top: 5px;
+  .img-container {
+    float: left;
+    clear: both;
+    img {
+      width: 80px;
+    }
+  }
+  .title-container {
+    float: left;
+    padding-left: 10px;
+    padding-top: 2px;
+    width: calc(80% - 90px);
+    .title {
+      text-decoration: underline;
+    }
+    .genre {
+      margin-top: 10px;
+    }
+  }
+  .extra-info-container {
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    width: calc(20% - 90px);
+  }
+
+}

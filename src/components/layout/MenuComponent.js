@@ -22,8 +22,4 @@ class MenuComponent extends React.Component {
 
 MenuComponent.displayName = 'LayoutMenuComponent';
 
-// Uncomment properties you need
-// MenuComponent.propTypes = {};
-// MenuComponent.defaultProps = {};
-
 export default MenuComponent;
