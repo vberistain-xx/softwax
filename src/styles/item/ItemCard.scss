@@ -31,5 +31,8 @@
     padding-top: 2px;
     width: calc(20% - 90px);
   }
+}
 
+.itemcard-component:first-child {
+  margin-top: 0px;
 }

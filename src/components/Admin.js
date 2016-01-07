@@ -5,7 +5,7 @@ import HeaderComponent from './layout/HeaderComponent';
 import LoginComponent from './admin/LoginComponent';
 
 
-export default ( props ) => {
+export default () => {
   return (
     <div className="container">
       <HeaderComponent />

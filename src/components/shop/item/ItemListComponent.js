@@ -40,9 +40,7 @@ class ItemListComponent extends React.Component {
       );
     });
     return (
-      <div>
-        {items}
-      </div>
+      <div className="itemlist-component">{items}</div>
     )
   }
 }

@@ -9,7 +9,7 @@ import SidebarComponent from './layout/SidebarComponent';
 import ContentComponent from './layout/ContentComponent';
 
 
-export default ( props ) => {
+export default () => {
   return (
     <div className="container">
       <HeaderComponent />

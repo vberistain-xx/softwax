@@ -16,8 +16,4 @@ class LoginComponent extends React.Component {
 
 LoginComponent.displayName = 'AdminLoginComponent';
 
-// Uncomment properties you need
-// LoginComponent.propTypes = {};
-// LoginComponent.defaultProps = {};
-
 export default LoginComponent;

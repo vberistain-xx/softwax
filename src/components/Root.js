@@ -1,8 +1,6 @@
 import React from 'react';
-import Shop from './Shop';
 
-
-export default ( props ) => {
+export default (props) => {
   return (
     <div className="container">
       { props.children }

@@ -12,7 +12,7 @@ class ItemStore {
   }
   getAll() {
     $.ajax({
-      type: "GET",
+      type: 'GET',
       url: 'http://localhost:3000/items.json',
       success: (res) => {
         this.items = res;
